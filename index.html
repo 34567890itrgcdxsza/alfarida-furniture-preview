@@ -1,0 +1,1284 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>معرض ومصنع الفريدة للأثاث | ALFARIDA FURNITURE — فخامة التصنيع ودقة التفاصيل</title>
+  <meta name="description" content="معرض ومصنع الفريدة للأثاث - أرقى أطقم الصالونات الكلاسيكية، الانتريهات المودرن، غرف النوم، والسفرة المصنوعة من أجود الأخشاب الطبيعية مع إمكانية التفصيل والتأثيث المتكامل.">
+  
+  <!-- Favicon / Logo -->
+  <link rel="icon" type="image/jpeg" href="img/logo.jpg">
+
+  <!-- Google Fonts: Cairo (Arabic Primary) + Playfair Display (Editorial Brand & Codes) + Plus Jakarta Sans (Specs) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       1. Site Header
+       ========================================================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-container">
+      <!-- Brand Logo & Identity -->
+      <a href="#hero" class="brand-wrapper" aria-label="الرئيسية - معرض ومصنع الفريدة للأثاث">
+        <div class="logo-frame">
+          <img src="img/logo.jpg" alt="شعار معرض ومصنع الفريدة للأثاث" loading="eager">
+        </div>
+        <div class="brand-text">
+          <span class="brand-en">ALFARIDA</span>
+          <span class="brand-ar">معرض ومصنع الفريدة للأثاث</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-desktop" aria-label="القائمة الرئيسية">
+        <a href="#hero" class="nav-link active">الرئيسية</a>
+        <a href="#catalog" class="nav-link">الكتالوج</a>
+        <a href="#craftsmanship" class="nav-link">عن الفريدة</a>
+        <a href="#portfolio" class="nav-link">سابقة الأعمال</a>
+        <a href="#faq" class="nav-link">الأسئلة الشائعة</a>
+      </nav>
+
+      <!-- Header Action & Mobile Menu Toggle -->
+      <div class="header-actions">
+        <button type="button" class="btn btn-primary btn-sm open-rfq-trigger" data-subject="استفسار عام وتواصل">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+          </svg>
+          <span>تواصل معنا / اطلب تسعير</span>
+        </button>
+
+        <button type="button" class="mobile-menu-toggle" id="menuToggle" aria-label="فتح قائمة التنقل">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu Overlay -->
+  <div class="mobile-drawer-overlay" id="drawerOverlay"></div>
+
+  <!-- Mobile Drawer -->
+  <aside class="mobile-drawer" id="mobileDrawer" aria-label="قائمة الهاتف المحمول">
+    <div class="drawer-header">
+      <div class="brand-wrapper">
+        <div class="logo-frame" style="width: 44px; height: 44px;">
+          <img src="img/logo.jpg" alt="شعار الفريدة للأثاث">
+        </div>
+        <div class="brand-text">
+          <span class="brand-en" style="font-size: 1rem;">ALFARIDA</span>
+          <span class="brand-ar">معرض الفريدة</span>
+        </div>
+      </div>
+      <button type="button" class="drawer-close" id="drawerClose" aria-label="إغلاق القائمة">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+
+    <nav class="drawer-nav">
+      <a href="#hero" class="drawer-link">الرئيسية</a>
+      <a href="#catalog" class="drawer-link">الكتالوج المعماري</a>
+      <a href="#craftsmanship" class="drawer-link">حرفية التصنيع والخامات</a>
+      <a href="#portfolio" class="drawer-link">سابقة الأعمال والمشروعات</a>
+      <a href="#workflow" class="drawer-link">خطوات العمل والتنفيذ</a>
+      <a href="#faq" class="drawer-link">الأسئلة الشائعة</a>
+    </nav>
+
+    <div class="drawer-footer">
+      <button type="button" class="btn btn-primary open-rfq-trigger" style="width: 100%;" data-subject="استفسار من الهاتف">
+        <span>اطلب تسعير / استشارة</span>
+      </button>
+      <a href="https://wa.me/201000000000" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width: 100%;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+        </svg>
+        <span>واتساب المبيعات</span>
+      </a>
+    </div>
+  </aside>
+
+  <!-- ==========================================================================
+       2. Hero Section
+       ========================================================================== -->
+  <section class="hero-section" id="hero">
+    <div class="container hero-grid">
+      <!-- Text & Value Proposition (RTL Right) -->
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="hero-badge-dot"></span>
+          <span>معرض ومصنع الفريدة للأثاث • منذ 2008</span>
+        </div>
+
+        <h1 class="hero-title">
+          فخامة التصنيع ودقة التفاصيل في كل قطعة
+        </h1>
+
+        <p class="hero-subtitle">
+          نبتكر ونصنّع أرقى مجموعات الأثاث المنزلي والمكتبي والفندقي بأجود أنواع الأخشاب الطبيعية وتصميمات راقية تناسب أسلوب حياتك، مع إمكانية التفصيل الكامل حسب مقاسات منزلك واختياراتك الخاصة.
+        </p>
+
+        <!-- CTA Buttons -->
+        <div class="hero-actions">
+          <a href="#catalog" class="btn btn-primary">
+            <span>تصفح الكتالوج</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="19" y1="12" x2="5" y2="12"></line>
+              <polyline points="12 19 5 12 12 5"></polyline>
+            </svg>
+          </a>
+          <a href="#portfolio" class="btn btn-secondary">
+            <span>سابقة أعمالنا</span>
+          </a>
+        </div>
+
+        <!-- Key Trust Figures -->
+        <div class="hero-trust-strip">
+          <div class="trust-item">
+            <span class="trust-num">
+              <span>+15</span>
+              <span class="gold-accent">عاماً</span>
+            </span>
+            <span class="trust-label">خبرة في التصنيع والنجارة اليدوية</span>
+          </div>
+
+          <div class="trust-item">
+            <span class="trust-num">
+              <span>+500</span>
+              <span class="gold-accent">مشروع</span>
+            </span>
+            <span class="trust-label">منزل وفيلا مؤثثة بأعلى جودة</span>
+          </div>
+
+          <div class="trust-item">
+            <span class="trust-num">
+              <span>100%</span>
+              <span class="gold-accent">طبيعي</span>
+            </span>
+            <span class="trust-label">أخشاب زان وروماني مع ضمان جودة</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Visual Showcase (RTL Left) -->
+      <div class="hero-visual">
+        <div class="hero-frame">
+          <img src="img/hero-living.jpg" alt="طقم معيشة كاسل فاخر من أثاث الفريدة" loading="eager">
+        </div>
+
+        <!-- Architectural Glass Floating Card -->
+        <div class="hero-floating-card">
+          <div class="hero-card-meta">
+            <span class="hero-card-tag">المجموعة الرائدة • 2024</span>
+            <span class="hero-card-title">طقم معيشة كاسل درجات ترابية</span>
+            <span class="hero-card-desc">خشب زان أحمر روماني • قماش بوكليه مستورد</span>
+          </div>
+          <span class="hero-card-pill">صناعة يدوية فائقة</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       3. Categories & Values Strip
+       ========================================================================== -->
+  <section class="categories-strip-section" id="categories">
+    <div class="container">
+      <div class="categories-grid">
+        <!-- Division 1 -->
+        <a href="#catalog" class="category-chip" data-filter="bedroom">
+          <div class="category-icon-box">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M2 4v16M2 8h18a2 2 0 0 1 2 2v10M2 17h20M6 8v9"></path>
+            </svg>
+          </div>
+          <h3 class="category-title">غرف نوم</h3>
+          <span class="category-desc">أجنحة ماستر مودرن وكلاسيك</span>
+        </a>
+
+        <!-- Division 2 -->
+        <a href="#catalog" class="category-chip" data-filter="dining">
+          <div class="category-icon-box">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="7" width="20" height="4" rx="1"></rect>
+              <line x1="5" y1="11" x2="5" y2="20"></line>
+              <line x1="19" y1="11" x2="19" y2="20"></line>
+              <line x1="10" y1="11" x2="10" y2="20"></line>
+              <line x1="14" y1="11" x2="14" y2="20"></line>
+            </svg>
+          </div>
+          <h3 class="category-title">سفرة</h3>
+          <span class="category-desc">طاولات خشب طبيعي وكراسي</span>
+        </a>
+
+        <!-- Division 3 -->
+        <a href="#catalog" class="category-chip" data-filter="living">
+          <div class="category-icon-box">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="11" width="18" height="9" rx="2"></rect>
+              <path d="M5 11V7a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v4"></path>
+              <line x1="8" y1="11" x2="8" y2="15"></line>
+              <line x1="16" y1="11" x2="16" y2="15"></line>
+            </svg>
+          </div>
+          <h3 class="category-title">انتريهات وركنيات</h3>
+          <span class="category-desc">تصاميم ترابية ومريحة L-Shape</span>
+        </a>
+
+        <!-- Division 4 -->
+        <a href="#catalog" class="category-chip" data-filter="salon">
+          <div class="category-icon-box">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg>
+          </div>
+          <h3 class="category-title">صالونات كلاسيك</h3>
+          <span class="category-desc">حفر يدوي أويما وذهب عيار 24</span>
+        </a>
+
+        <!-- Division 5 -->
+        <a href="#craftsmanship" class="category-chip" data-filter="all">
+          <div class="category-icon-box">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+              <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+            </svg>
+          </div>
+          <h3 class="category-title">أثاث مكتبي وفندقي</h3>
+          <span class="category-desc">توريدات B2B للشركات والمنتجعات</span>
+        </a>
+
+        <!-- Division 6 -->
+        <a href="#craftsmanship" class="category-chip" data-filter="all">
+          <div class="category-icon-box">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+              <polyline points="9 22 9 12 15 12 15 22"></polyline>
+            </svg>
+          </div>
+          <h3 class="category-title">تأثيث متكامل</h3>
+          <span class="category-desc">باقات شاملة للشقق والفلل</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       4. Interactive Furniture Catalog (الكتالوج)
+       ========================================================================== -->
+  <section class="section-spacing catalog-section" id="catalog">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="section-header">
+        <span class="section-badge">كتالوج النخبة الحصري</span>
+        <h2 class="section-title">قطع أثاث مصممة لتدوم أجيالاً</h2>
+        <p class="section-subtitle">
+          تصفح مجموعاتنا المصنعة يدوياً بأيدي أمهر النجارين والمنجدين في مصر. نوفر إمكانية تعديل الأبعاد، الأخشاب، ونوع القماش لكل قطعة.
+        </p>
+      </div>
+
+      <!-- Filter Pills Bar -->
+      <div class="filter-bar" role="tablist" aria-label="تصنيفات الكتالوج">
+        <button type="button" class="filter-pill active" data-category="all" role="tab" aria-selected="true">الكل</button>
+        <button type="button" class="filter-pill" data-category="salon" role="tab" aria-selected="false">صالونات كلاسيك</button>
+        <button type="button" class="filter-pill" data-category="living" role="tab" aria-selected="false">انتريهات وركنيات</button>
+        <button type="button" class="filter-pill" data-category="bedroom" role="tab" aria-selected="false">غرف نوم</button>
+        <button type="button" class="filter-pill" data-category="dining" role="tab" aria-selected="false">سفرة</button>
+      </div>
+
+      <!-- Product Cards Grid (Curated exact 7 models) -->
+      <div class="catalog-grid" id="catalogGrid">
+        
+        <!-- Model 1: AF-101 -->
+        <article class="product-card" data-category="living">
+          <div class="product-img-wrapper">
+            <img src="img/hero-living.jpg" alt="انتريه مودرن درجات ترابية - AF-101" loading="lazy">
+            <span class="product-floating-badge">الأكثر طلباً</span>
+            <span class="product-sku">AF-101</span>
+          </div>
+          <div class="product-body">
+            <div class="product-meta-row">
+              <span class="product-category-tag">انتريهات وركنيات</span>
+              <span style="font-size: 0.8rem; color: var(--text-muted);">خشب زان أحمر</span>
+            </div>
+            <h3 class="product-title">انتريه مودرن درجات ترابية</h3>
+            
+            <div class="product-specs-list">
+              <div class="spec-line">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong class="spec-label">الخامات:</strong> زان أحمر روماني طبيعي، قماش قطيفة وتر بيل</span>
+              </div>
+              <div class="spec-line">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong class="spec-label">التنجيد:</strong> إسفنج عالي المرونة HR كثافة 36 سوفت</span>
+              </div>
+              <div class="spec-line">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong class="spec-label">المقاس:</strong> كنبة ثلاثية 220 سم + ثنائية 175 سم + 2 فوتيه</span>
+              </div>
+            </div>
+
+            <div class="product-card-actions">
+              <button type="button" class="btn-quickview" data-sku="AF-101">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                <span>التفاصيل والمقاسات</span>
+              </button>
+              <a href="https://wa.me/201000000000?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D9%85%D9%88%D8%AF%D9%8A%D9%84%20AF-101%20(%D8%A7%D9%86%D8%AA%D8%B1%D9%8A%D9%87%20%D9%85%D9%88%D8%AF%D8%B1%D9%86%20%D8%AF%D8%B1%D8%AC%D8%A7%D8%AA%20%D8%AA%D8%B1%D8%A7%D8%A8%D9%8A%D8%A9)" target="_blank" rel="noopener noreferrer" class="btn-whatsapp-inquire" aria-label="استفسار عبر واتساب عن موديل AF-101">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Model 2: AF-102 -->
+        <article class="product-card" data-category="living">
+          <div class="product-img-wrapper">
+            <img src="img/living-2.jpg" alt="غرفة معيشة نيو كلاسيك - AF-102" loading="lazy">
+            <span class="product-floating-badge">تصميم حصري 2024</span>
+            <span class="product-sku">AF-102</span>
+          </div>
+          <div class="product-body">
+            <div class="product-meta-row">
+              <span class="product-category-tag">انتريهات وركنيات</span>
+              <span style="font-size: 0.8rem; color: var(--text-muted);">نيو كلاسيك</span>
+            </div>
+            <h3 class="product-title">غرفة معيشة نيو كلاسيك</h3>
+            
+            <div class="product-specs-list">
+              <div class="spec-line">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong class="spec-label">الهيكل:</strong> زان مجفف مع حليات معدنية برونزية فاخرة</span>
+              </div>
+              <div class="spec-line">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong class="spec-label">القماش:</strong> جاكار مستورد وكابيتونيه يدوي متقن</span>
+              </div>
+              <div class="spec-line">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong class="spec-label">المقاس:</strong> ركنة 320×240 سم + بانكيت استرخاء 120 سم</span>
+              </div>
+            </div>
+
+            <div class="product-card-actions">
+              <button type="button" class="btn-quickview" data-sku="AF-102">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                <span>التفاصيل والمقاسات</span>
+              </button>
+              <a href="https://wa.me/201000000000?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D9%85%D9%88%D8%AF%D9%8A%D9%84%20AF-102%20(%D8%BA%D8%B1%D9%81%D8%A9%20%D9%85%D8%B9%D9%8A%D8%B4%D8%A9%20%D9%86%D9%8A%D9%88%20%D9%83%D9%84%D8%A7%D8%B3%D9%8A%D9%83)" target="_blank" rel="noopener noreferrer" class="btn-whatsapp-inquire" aria-label="استفسار عبر واتساب عن موديل AF-102">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Model 3: AF-103 -->
+        <article class="product-card" data-category="living">
+          <div class="product-img-wrapper contain-bg">
+            <img src="img/sofa-sectional.webp" alt="ركنة مودرن مريحة - AF-103" loading="lazy">
+            <span class="product-floating-badge">راحة فائقة</span>
+            <span class="product-sku">AF-103</span>
+          </div>
+          <div class="product-body">
+            <div class="product-meta-row">
+              <span class="product-category-tag">انتريهات وركنيات</span>
+              <span style="font-size: 0.8rem; color: var(--text-muted);">ركنة L-Shape</span>
+            </div>
+            <h3 class="product-title">ركنة مودرن مريحة</h3>
+            
+            <div class="product-specs-list">
+              <div class="spec-line">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong class="spec-label">الشاسيه:</strong> خشب زان أحمر متين زيرو عيوب</span>
+              </div>
+              <div class="spec-line">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong class="spec-label">القماش:</strong> كتان تركي عالي التحمل معالج ضد البقع</span>
+              </div>
+              <div class="spec-line">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong class="spec-label">المقاس:</strong> 300×200 سم بعمق 105 سم لراحة جلوس قصوى</span>
+              </div>
+            </div>
+
+            <div class="product-card-actions">
+              <button type="button" class="btn-quickview" data-sku="AF-103">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                <span>التفاصيل والمقاسات</span>
+              </button>
+              <a href="https://wa.me/201000000000?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D9%85%D9%88%D8%AF%D9%8A%D9%84%20AF-103%20(%D8%B1%D9%83%D9%86%D8%A9%20%D9%85%D9%88%D8%AF%D8%B1%D9%86%20%D9%85%D8%B1%D9%8A%D8%AD%D8%A9)" target="_blank" rel="noopener noreferrer" class="btn-whatsapp-inquire" aria-label="استفسار عبر واتساب عن موديل AF-103">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Model 4: AF-201 -->
+        <article class="product-card" data-category="salon">
+          <div class="product-img-wrapper">
+            <img src="img/salon-classic.webp" alt="صالون كلاسيك فاخر مذهب - AF-201" loading="lazy">
+            <span class="product-floating-badge">حفر يدوي أويما</span>
+            <span class="product-sku">AF-201</span>
+          </div>
+          <div class="product-body">
+            <div class="product-meta-row">
+              <span class="product-category-tag">صالونات كلاسيك</span>
+              <span style="font-size: 0.8rem; color: var(--accent-gold);">ذهب عيار 24</span>
+            </div>
+            <h3 class="product-title">صالون كلاسيك فاخر مذهب</h3>
+            
+            <div class="product-specs-list">
+              <div class="spec-line">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong class="spec-label">الحفر:</strong> أويما يدوية بارزة على خشب زان أحمر ماسيف</span>
+              </div>
+              <div class="spec-line">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong class="spec-label">الدهان:</strong> ورق ذهب فرنسي 24k مع طبقة حماية عازلة</span>
+              </div>
+              <div class="spec-line">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong class="spec-label">المحتوى:</strong> كنبة ثلاثية + 4 فوتيهات + ترابيزة رخام كرارا</span>
+              </div>
+            </div>
+
+            <div class="product-card-actions">
+              <button type="button" class="btn-quickview" data-sku="AF-201">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                <span>التفاصيل والمقاسات</span>
+              </button>
+              <a href="https://wa.me/201000000000?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D9%85%D9%88%D8%AF%D9%8A%D9%84%20AF-201%20(%D8%B5%D8%A7%D9%84%D9%88%D9%86%20%D9%83%D9%84%D8%A7%D8%B3%D9%8A%D9%83%20%D9%81%D8%A7%D8%AE%D8%B1%20%D9%85%D8%B0%D9%87%D8%A8)" target="_blank" rel="noopener noreferrer" class="btn-whatsapp-inquire" aria-label="استفسار عبر واتساب عن موديل AF-201">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Model 5: AF-301 -->
+        <article class="product-card" data-category="bedroom">
+          <div class="product-img-wrapper">
+            <img src="img/bedroom-1.jpg" alt="غرفة نوم ماستر مودرن - AF-301" loading="lazy">
+            <span class="product-floating-badge">ماستر سويت</span>
+            <span class="product-sku">AF-301</span>
+          </div>
+          <div class="product-body">
+            <div class="product-meta-row">
+              <span class="product-category-tag">غرف نوم</span>
+              <span style="font-size: 0.8rem; color: var(--text-muted);">طراز فندقي فاخر</span>
+            </div>
+            <h3 class="product-title">غرفة نوم ماستر مودرن</h3>
+            
+            <div class="product-specs-list">
+              <div class="spec-line">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong class="spec-label">الخامات:</strong> قشرة آرو طبيعي مع شاسيه زان ومفصلات بلوم</span>
+              </div>
+              <div class="spec-line">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong class="spec-label">السرير:</strong> 180×200 سم بظهر تنجيد مخملي وإضاءة مخفية</span>
+              </div>
+              <div class="spec-line">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong class="spec-label">الدولاب:</strong> دولاب جرار 280×225 سم مع تقسيمات ذكية</span>
+              </div>
+            </div>
+
+            <div class="product-card-actions">
+              <button type="button" class="btn-quickview" data-sku="AF-301">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                <span>التفاصيل والمقاسات</span>
+              </button>
+              <a href="https://wa.me/201000000000?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D9%85%D9%88%D8%AF%D9%8A%D9%84%20AF-301%20(%D8%BA%D8%B1%D9%81%D8%A9%20%D9%86%D9%88%D9%85%20%D9%85%D8%A7%D8%B3%D8%AA%D8%B1%20%D9%85%D9%88%D8%AF%D8%B1%D9%86)" target="_blank" rel="noopener noreferrer" class="btn-whatsapp-inquire" aria-label="استفسار عبر واتساب عن موديل AF-301">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Model 6: AF-401 -->
+        <article class="product-card" data-category="dining">
+          <div class="product-img-wrapper">
+            <img src="img/dining-set.webp" alt="طقم سفرة خشب طبيعي متكامل - AF-401" loading="lazy">
+            <span class="product-floating-badge">متكاملة 8 كراسي</span>
+            <span class="product-sku">AF-401</span>
+          </div>
+          <div class="product-body">
+            <div class="product-meta-row">
+              <span class="product-category-tag">سفرة</span>
+              <span style="font-size: 0.8rem; color: var(--text-muted);">طقم استقبال متكامل</span>
+            </div>
+            <h3 class="product-title">طقم سفرة خشب طبيعي متكامل</h3>
+            
+            <div class="product-specs-list">
+              <div class="spec-line">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong class="spec-label">المائدة:</strong> خشب طبيعي مجفف مفرز بأطراف ناعمة 220×100 سم</span>
+              </div>
+              <div class="spec-line">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong class="spec-label">الكراسي:</strong> 8 كراسي مريحة منجدة بقماش مقاوم للبقع</span>
+              </div>
+              <div class="spec-line">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong class="spec-label">المحتويات:</strong> طاولة + 8 كراسي + بوفيه 200 سم ومرآة مودرن</span>
+              </div>
+            </div>
+
+            <div class="product-card-actions">
+              <button type="button" class="btn-quickview" data-sku="AF-401">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                <span>التفاصيل والمقاسات</span>
+              </button>
+              <a href="https://wa.me/201000000000?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D9%85%D9%88%D8%AF%D9%8A%D9%84%20AF-401%20(%D8%B7%D9%82%D9%85%20%D8%B3%D9%81%D8%B1%D8%A9%20%D8%AE%D8%B4%D8%A8%20%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A%20%D9%85%D8%AA%D9%83%D8%A7%D9%85%D9%84)" target="_blank" rel="noopener noreferrer" class="btn-whatsapp-inquire" aria-label="استفسار عبر واتساب عن موديل AF-401">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Model 7: AF-402 -->
+        <article class="product-card" data-category="dining">
+          <div class="product-img-wrapper">
+            <img src="img/dining-table.webp" alt="طاولة سفرة خشبية بتصميم معماري - AF-402" loading="lazy">
+            <span class="product-floating-badge">تصميم معماري عضوي</span>
+            <span class="product-sku">AF-402</span>
+          </div>
+          <div class="product-body">
+            <div class="product-meta-row">
+              <span class="product-category-tag">سفرة</span>
+              <span style="font-size: 0.8rem; color: var(--text-muted);">خشب طبيعي ماسيف</span>
+            </div>
+            <h3 class="product-title">طاولة سفرة خشبية بتصميم معماري</h3>
+            
+            <div class="product-specs-list">
+              <div class="spec-line">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong class="spec-label">اللوح العلوي:</strong> خشب طبيعي صلب سماكة 5 سم معالج هندسياً</span>
+              </div>
+              <div class="spec-line">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong class="spec-label">الأرجل:</strong> قواعد خشبية هندسية بتوزيع وزن متزن وثابت</span>
+              </div>
+              <div class="spec-line">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong class="spec-label">المقاس:</strong> 240×105 سم بارتفاع 77 سم (تتسع حتى 10 مقاعد)</span>
+              </div>
+            </div>
+
+            <div class="product-card-actions">
+              <button type="button" class="btn-quickview" data-sku="AF-402">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                <span>التفاصيل والمقاسات</span>
+              </button>
+              <a href="https://wa.me/201000000000?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D9%85%D9%88%D8%AF%D9%8A%D9%84%20AF-402%20(%D8%B7%D8%A7%D9%88%D9%84%D8%A9%20%D8%B3%D9%81%D8%B1%D8%A9%20%D8%AE%D8%B4%D8%A8%D9%8A%D8%A9%20%D8%A8%D8%AA%D8%B5%D9%85%D9%8A%D9%85%20%D9%85%D8%B9%D9%85%D8%A7%D8%B1%D9%8A)" target="_blank" rel="noopener noreferrer" class="btn-whatsapp-inquire" aria-label="استفسار عبر واتساب عن موديل AF-402">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       5. Craftsmanship & Custom Tailoring Features
+       ========================================================================== -->
+  <section class="section-spacing craftsmanship-section" id="craftsmanship">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="section-header">
+        <span class="section-badge">حرفية المصنع والورش المتخصصة</span>
+        <h2 class="section-title">صناعة الأثاث كفن معماري متكامل</h2>
+        <p class="section-subtitle">
+          في مصانع الفريدة، لا ننتج قطعاً مكررة؛ بل نجسد رؤيتك من خلال الجمع بين المهارة اليدوية التراثية في النجارة والتنجيد والتقنيات الهندسية الحديثة.
+        </p>
+      </div>
+
+      <!-- 3 Alternating Rows -->
+      <div class="craftsmanship-rows">
+        
+        <!-- Row 1: جودة الخامات والأخشاب الطبيعية (with img/dining-table.webp) -->
+        <div class="craft-row">
+          <div class="craft-img-box">
+            <img src="img/dining-table.webp" alt="جودة الأخشاب الطبيعية الصلبة - مصنع الفريدة" loading="lazy">
+          </div>
+          <div class="craft-text-box">
+            <span class="craft-step-tag">01 • أصالة المواد</span>
+            <h3 class="craft-title">جودة الخامات والأخشاب الطبيعية 100%</h3>
+            <p class="craft-lead">
+              ننتقي أجود أخشاب الزان الأحمر الروماني، الآرو، والماسيف المجفف هندسياً بنسبة رطوبة مدروسة (8-10%) تمنع تقوس الخشب أو تشققه على مدار العقود.
+            </p>
+            <div class="craft-highlights">
+              <div class="highlight-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                <span>خشب زان أحمر روماني طبيعي بدون خلط أو بدائل رخيصة</span>
+              </div>
+              <div class="highlight-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                <span>معالجة حرارية وكيميائية متطورة ضد الرطوبة وحشرات الأخشاب</span>
+              </div>
+              <div class="highlight-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                <span>دهانات بولي يوريثان إيطالية فائقة المقاومة للخدش والتصبغ</span>
+              </div>
+            </div>
+            <button type="button" class="btn btn-secondary open-rfq-trigger" data-subject="استفسار عن الخامات والأخشاب">
+              <span>طلب عينات خامات وأخشاب</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Row 2: التفصيل حسب المقاس والذوق واللون (with img/salon-classic.webp - reversed) -->
+        <div class="craft-row reverse">
+          <div class="craft-img-box">
+            <img src="img/salon-classic.webp" alt="التفصيل الدقيق والنحت اليدوي حسب الطلب" loading="lazy">
+          </div>
+          <div class="craft-text-box">
+            <span class="craft-step-tag">02 • التخصيص المطلق</span>
+            <h3 class="craft-title">التفصيل حسب المقاس والذوق واللون</h3>
+            <p class="craft-lead">
+              كل مساحة معمارية لها هويتها الخاصة. في مصنع الفريدة، يمكنك تعديل أي تصميم في الكتالوج، أو إحضار مخططك الخاص من مهندس الديكور لنصنعه لك بدقة السنتيمتر.
+            </p>
+            <div class="craft-highlights">
+              <div class="highlight-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                <span>تعديل الأبعاد الهندسية بالكامل لتلائم مساحة غرفتك بدقة</span>
+              </div>
+              <div class="highlight-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                <span>أكثر من 300 كتالوج أقمشة وجلود وكتان وبوكليه للاختيار من بينها</span>
+              </div>
+              <div class="highlight-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                <span>خيارات تشطيب غير محدودة: ورق ذهب، فضة، دوكو فرن، واسترات طبيعية</span>
+              </div>
+            </div>
+            <button type="button" class="btn btn-secondary open-rfq-trigger" data-subject="طلب تفصيل خاص حسب المقاس">
+              <span>طلب تفصيل تصميم مخصص</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Row 3: باقات التأثيث الكامل للشقق والفلل والمشروعات (with img/living-2.jpg) -->
+        <div class="craft-row">
+          <div class="craft-img-box">
+            <img src="img/living-2.jpg" alt="باقات التأثيث المتكامل للشقق والفلل" loading="lazy">
+          </div>
+          <div class="craft-text-box">
+            <span class="craft-step-tag">03 • حلول Turnkey الشاملة</span>
+            <h3 class="craft-title">باقات التأثيث الكامل للشقق والفلل والمشروعات</h3>
+            <p class="craft-lead">
+              نوفر على العميل عناء التنقل وتنسيق الورش المتعددة؛ حيث يتولى فريقنا الهندسي تجهيز المسكن بالكامل: صالون، معيشة، نوم ماستر، أطفال، وسفرة بتناغم لوني وجمالي موحد.
+            </p>
+            <div class="craft-highlights">
+              <div class="highlight-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                <span>معاينة هندسية ميدانية ورفع دقيق للمقاسات وتوزيع الأثاث</span>
+              </div>
+              <div class="highlight-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                <span>خصومات باقات مجمعة توفر حتى 25% مقارنة بشراء القطع المنفردة</span>
+              </div>
+              <div class="highlight-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                <span>توصيل وتركيب احترافي في يوم محدد مع تسليم وثيقة الضمان</span>
+              </div>
+            </div>
+            <button type="button" class="btn btn-primary open-rfq-trigger" data-subject="طلب باقة تأثيث متكامل لشقة أو فيلا">
+              <span>استفسر عن باقات التأثيث الكامل</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       6. Portfolio Showcase (سابقة الأعمال والمشروعات)
+       ========================================================================== -->
+  <section class="section-spacing portfolio-section" id="portfolio">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="section-header">
+        <span class="section-badge">معرض المشروعات الواقعية</span>
+        <h2 class="section-title">سابقة الأعمال والمشروعات المنفذة</h2>
+        <p class="section-subtitle">
+          جولة واقعية في بعض المشروعات السكنية والفندقية التي قمنا بتأثيثها مؤخراً بأيدي مصنع ومعرض الفريدة. انقر على أي مشروع للاطلاع على المواصفات والمدى الزمني.
+        </p>
+      </div>
+
+      <!-- Portfolio Grid (Curated 4 Completed Projects) -->
+      <div class="portfolio-grid">
+        
+        <!-- Project 1: تأثيث فيلا مودرن - التجمع الخامس (img/hero-living.jpg) -->
+        <article class="portfolio-card" data-project="proj-1">
+          <div class="portfolio-img-wrapper">
+            <img src="img/hero-living.jpg" alt="مشروع تأثيث فيلا مودرن بالتجمع الخامس" loading="lazy">
+            <span class="portfolio-tag">فيلا سكنية • تأثيث متكامل</span>
+            <div class="portfolio-overlay">
+              <span class="portfolio-overlay-cta">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                <span>عرض تفاصيل المشروع الكاملة</span>
+              </span>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3 class="portfolio-title">تأثيث فيلا مودرن - التجمع الخامس</h3>
+            <p class="portfolio-desc">فرش متكامل لمنطقة الاستقبال والمعيشة وغرفة طعام 10 كراسي بتناغم ترابي دافئ وأخشاب زان طبيعية.</p>
+            <div class="portfolio-meta">
+              <span>الموقع: القاهرة الجديدة</span>
+              <span style="color: var(--accent-gold); font-weight: 700;">تسليم Turnkey كامل</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2: صالون كلاسيك ملكي - قصر بالشيخ زايد (img/salon-classic.webp) -->
+        <article class="portfolio-card" data-project="proj-2">
+          <div class="portfolio-img-wrapper">
+            <img src="img/salon-classic.webp" alt="مشروع صالون كلاسيك ملكي بقصر في الشيخ زايد" loading="lazy">
+            <span class="portfolio-tag">قصور وفلل • كلاسيك فاخر</span>
+            <div class="portfolio-overlay">
+              <span class="portfolio-overlay-cta">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                <span>عرض تفاصيل المشروع الكاملة</span>
+              </span>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3 class="portfolio-title">صالون كلاسيك ملكي - قصر بالشيخ زايد</h3>
+            <p class="portfolio-desc">نحت يدوي أويما بارز مع دهان ورق ذهب فرنسي عيار 24 وحرير دمشقي مخصص لمجالس الضيافة الكبرى.</p>
+            <div class="portfolio-meta">
+              <span>الموقع: مدينة الشيخ زايد</span>
+              <span style="color: var(--accent-gold); font-weight: 700;">حفر يدوي خاص</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3: جناح نوم رئيسي متكامل - بنتهاوس بالمعادي (img/bedroom-1.jpg) -->
+        <article class="portfolio-card" data-project="proj-3">
+          <div class="portfolio-img-wrapper">
+            <img src="img/bedroom-1.jpg" alt="مشروع جناح نوم رئيسي متكامل ببنتهاوس في المعادي" loading="lazy">
+            <span class="portfolio-tag">بنتهاوس • غرف نوم ماستر</span>
+            <div class="portfolio-overlay">
+              <span class="portfolio-overlay-cta">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                <span>عرض تفاصيل المشروع الكاملة</span>
+              </span>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3 class="portfolio-title">جناح نوم رئيسي متكامل - بنتهاوس بالمعادي</h3>
+            <p class="portfolio-desc">تصميم وتنفيذ غرفة نوم ماستر ودريسنج روم هيدروليكية كاملة بنمط كوستال هادئ ومفصلات سوفت كلوز ألمانية.</p>
+            <div class="portfolio-meta">
+              <span>الموقع: كورنيش المعادي</span>
+              <span style="color: var(--accent-gold); font-weight: 700;">طراز فندقي هادئ</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4: صالة طعام واستقبال راقية - بالم هيلز (img/dining-set.webp) -->
+        <article class="portfolio-card" data-project="proj-4">
+          <div class="portfolio-img-wrapper">
+            <img src="img/dining-set.webp" alt="مشروع صالة طعام واستقبال راقية في بالم هيلز" loading="lazy">
+            <span class="portfolio-tag">مساحات ضيافة • سفرة ومجالس</span>
+            <div class="portfolio-overlay">
+              <span class="portfolio-overlay-cta">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                <span>عرض تفاصيل المشروع الكاملة</span>
+              </span>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3 class="portfolio-title">صالة طعام واستقبال راقية - بالم هيلز</h3>
+            <p class="portfolio-desc">طاولة سفرة خشبية ضخمة 8 مقاعد مع كونسول رخامي، بوفيه بانورامي مفرز، وحليات خشبية جدارية متسقة.</p>
+            <div class="portfolio-meta">
+              <span>الموقع: 6 أكتوبر، بالم هيلز</span>
+              <span style="color: var(--accent-gold); font-weight: 700;">خشب ماسيف معتمد</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       7. How We Work (خطوات العمل من المعاينة للتسليم)
+       ========================================================================== -->
+  <section class="section-spacing workflow-section" id="workflow">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="section-header">
+        <span class="section-badge">منهجية العمل المحترفة</span>
+        <h2 class="section-title">خطوات العمل من المعاينة حتى التسليم والتركيب</h2>
+        <p class="section-subtitle">
+          تجربة سلسة وموثوقة تضمن راحة بالك ومطابقة كل قطعة من الأثاث للمواصفات المتفق عليها تماماً.
+        </p>
+      </div>
+
+      <!-- 3 Connected Steps -->
+      <div class="workflow-steps">
+        
+        <!-- Step 1 -->
+        <div class="workflow-step">
+          <div class="step-num-badge">01</div>
+          <h3 class="step-title">المعاينة واختيار التصميم والخامات</h3>
+          <p class="step-desc">
+            تبدأ رحلتك بزيارة معرضنا أو طلب زيارة مهندس المعاينة لرفع أبعاد الغرف مجاناً. نساعدك في اختيار التصميمات وتنسيق الأقمشة وعينات الأخشاب والدهانات المناسبة لديكور مسكنك.
+          </p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="workflow-step">
+          <div class="step-num-badge">02</div>
+          <h3 class="step-title">التصنيع الدقيق في مصانع الفريدة</h3>
+          <p class="step-desc">
+            يبدأ حرفيونا المهرة أعمال النجارة الميكانيكية واليدوية، والحفر، والدهان، والتنجيد بالإسفنج الطبي عالي الكثافة. نرحب بزيارة العميل للمصنع لمتابعة قطعته على الطبيعة قبل مرحلة التنجيد.
+          </p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="workflow-step">
+          <div class="step-num-badge">03</div>
+          <h3 class="step-title">التغليف والنقل والتركيب مع الضمان</h3>
+          <p class="step-desc">
+            تُغلّف قطع الأثاث بطبقات حماية سميكة ومقاومة للصدمات، وتُنقل بسياراتنا المخصصة للأثاث. يقوم فريق التركيب المتخصص بفرش القطع في مكانها وتسليمك شهادة الضمان المعتمدة.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       8. FAQ (الأسئلة الشائعة)
+       ========================================================================== -->
+  <section class="section-spacing faq-section" id="faq">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="section-header">
+        <span class="section-badge">إجابات واضحة وشفافة</span>
+        <h2 class="section-title">الأسئلة الشائعة حول التصنيع والتعاقد</h2>
+        <p class="section-subtitle">
+          كل ما تحتاج معرفته حول مقاسات الأثاث، أنواع الأخشاب، باقات التوريد، والضمان الممنوح لعملائنا.
+        </p>
+      </div>
+
+      <!-- Accordion Container (6 Questions) -->
+      <div class="faq-container">
+        
+        <!-- Question 1 -->
+        <div class="faq-item">
+          <button type="button" class="faq-trigger" aria-expanded="false">
+            <span>هل يمكن تعديل أبعاد ومقاسات الأثاث أو تغيير ألوان القماش؟</span>
+            <span class="faq-icon-indicator">+</span>
+          </button>
+          <div class="faq-content">
+            <p class="faq-answer">
+              نعم بكل تأكيد! بصفتنا مصنعاً ومصمماً للأثاث، فإن جميع الموديلات المعروضة في الكتالوج قابلة للتعديل الكامل: يمكنك زيادة أو تقليل أطوال الكنب والركنات بالسنتيمتر، واختيار ألوان وخامات القماش من بين أكثر من 300 كتالوج متوفر بمعرضنا، بالإضافة لاختيار درجة دهان الأخشاب (استر، دوكو، ورق ذهب أو فضة).
+            </p>
+          </div>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="faq-item">
+          <button type="button" class="faq-trigger" aria-expanded="false">
+            <span>ما هي أنواع الأخشاب المستخدمة في تصنيع أثاث الفريدة؟</span>
+            <span class="faq-icon-indicator">+</span>
+          </button>
+          <div class="faq-content">
+            <p class="faq-answer">
+              نلتزم بنسبة 100% باستخدام الأخشاب الطبيعية الصلبة: نعتمد الخشب الزان الأحمر الروماني المجفف ميكانيكياً في تصنيع جميع الشاسيهات والهياكل الحاملة، وقشرة الآرو والماهوجني والجوز الطبيعي في ألواح غرف النوم والسفرة، مع استبعاد تام للألواح المصنعة الرديئة لضمان عمر افتراضي يمتد لعشرات السنوات.
+            </p>
+          </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="faq-item">
+          <button type="button" class="faq-trigger" aria-expanded="false">
+            <span>كم تستغرق مدة تصنيع وتوريد الطلبات الخاصة وتأثيث الشقق؟</span>
+            <span class="faq-icon-indicator">+</span>
+          </button>
+          <div class="faq-content">
+            <p class="faq-answer">
+              القطع الجاهزة في المعرض متاحة للشحن والتسليم الفوري خلال 48 ساعة. أما الطلبات المصنعة خصيصاً فتتراوح مدة تنفيذها بين 14 إلى 21 يوم عمل للقطع الفردية، ومن 25 إلى 35 يوماً لباقات تأثيث الشقق والفلل الكاملة، ويتم تحديد تاريخ التسليم بدقة في عقد التعاقد.
+            </p>
+          </div>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="faq-item">
+          <button type="button" class="faq-trigger" aria-expanded="false">
+            <span>هل تقدمون باقات تأثيث كاملة للعرائس والمشروعات مع خصومات خاصة؟</span>
+            <span class="faq-icon-indicator">+</span>
+          </button>
+          <div class="faq-content">
+            <p class="faq-answer">
+              نعم، نوفر باقات تأثيث متكاملة تشمل (صالون أو ركنة + غرفة نوم رئيسية + غرفة سفرة كاملة + غرفة أطفال/شبابية) بأسعار مجمعة تمنح العميل وفراً مالياً يصل إلى 25% مع هدايا إضافية مثل طاولات الوسط والخدمة والوسائد الديكورية، مع إمكانية جدولة دفعات السداد حسب مراحل التصنيع.
+            </p>
+          </div>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="faq-item">
+          <button type="button" class="faq-trigger" aria-expanded="false">
+            <span>هل يمكنكم تنفيذ أثاث المقرات الإدارية والفنادق والمطاعم (B2B)؟</span>
+            <span class="faq-icon-indicator">+</span>
+          </button>
+          <div class="faq-content">
+            <p class="faq-answer">
+              لدينا قسم عقود وتوريدات متخصص (B2B Contract Furniture) لتأثيث الفنادق، الشقق الفندقية، القرى السياحية، المكاتب الإدارية، والمطاعم الفاخرة، مع قدرة إنتاجية عالية والالتزام بالمطابقة الهندسية للمخططات التنفيذية والاشتراطات الفندقية الخاصة.
+            </p>
+          </div>
+        </div>
+
+        <!-- Question 6 -->
+        <div class="faq-item">
+          <button type="button" class="faq-trigger" aria-expanded="false">
+            <span>ما هي سياسة الضمان وخدمات ما بعد البيع والصيانة لديكم؟</span>
+            <span class="faq-icon-indicator">+</span>
+          </button>
+          <div class="faq-content">
+            <p class="faq-answer">
+              نمنح عملاءنا شهادة ضمان رسمية معتمدة تمتد لـ 10 سنوات على شاسيهات الأخشاب والنجارة ضد أي عيوب تصنيع، و5 سنوات ضمان على تماسك الإسفنج والمفصلات الميكانيكية. كما يوفر مصنعنا خدمة صيانة وتجديد وتنجيد دورية لجميع عملائنا بعد انتهاء فترة الضمان بأسعار التكلفة.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       9. Closing Banner & Footer
+       ========================================================================== -->
+  <section class="closing-banner-section">
+    <div class="banner-ambient-glow"></div>
+    <div class="container closing-banner-content">
+      <span class="section-badge" style="background-color: rgba(249, 243, 220, 0.15); color: #F9F3DC; border-color: rgba(249, 243, 220, 0.25);">ابدأ رحلة تأثيث منزلك الآن</span>
+      
+      <h2 class="closing-title">
+        هل ترغب في تحويل منزلك أو مشروعك إلى تحفة معمارية مريحة؟
+      </h2>
+      
+      <p class="closing-subtitle">
+        تفضل بزيارة صالة العرض لمعاينة دقة التصنيع والخامات الطبيعية على الطبيعة، أو تواصل مع مستشارينا الهندسيين للحصول على مقايسة تسعير فورية ومجانية.
+      </p>
+
+      <div class="closing-actions">
+        <button type="button" class="btn btn-gold open-rfq-trigger" data-subject="طلب مقايسة تسعير من البانر الرئيسي">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+          <span>اطلب تسعير واستشارة فورية</span>
+        </button>
+
+        <a href="https://wa.me/201000000000?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%20%D9%85%D8%B5%D9%86%D8%B9%20%D8%A7%D9%84%D9%81%D8%B1%D9%8A%D8%AF%D8%A9%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%AA%D9%88%D8%A7%D8%B5%D9%84%20%D9%85%D8%B9%D9%83%D9%85%20%D9%84%D8%AA%D8%B3%D8%B9%D9%8A%D8%B1%20%D8%A3%D8%AB%D8%A7%D8%AB%20%D9%85%D9%86%D8%B2%D9%84%D9%8A" target="_blank" rel="noopener noreferrer" class="btn btn-warm">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+          <span>محادثة فورية عبر واتساب</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Site Footer (3 Columns RTL) -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <!-- Column 1: Brand & Logo -->
+        <div class="footer-brand">
+          <div class="brand-wrapper">
+            <div class="logo-frame" style="width: 58px; height: 58px;">
+              <img src="img/logo.jpg" alt="شعار معرض ومصنع الفريدة للأثاث">
+            </div>
+            <div class="brand-text">
+              <span class="brand-en" style="font-size: 1.25rem;">ALFARIDA</span>
+              <span class="brand-ar" style="font-size: 0.85rem;">معرض ومصنع الفريدة للأثاث</span>
+            </div>
+          </div>
+          <p class="footer-bio">
+            صرح رائد في تصنيع الأثاث الفاخر والنجارة المعمارية اليدوية. نجمع بين أصالة الأخشاب الطبيعية ودقة اللمسات العصرية لنصنع لك أثاثاً يعكس تميزك ويدوم لأجيال.
+          </p>
+          <div class="footer-socials">
+            <a href="#" class="social-link" aria-label="حساب انستغرام">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="صفحة فيسبوك">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+            </a>
+            <a href="https://wa.me/201000000000" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="مراسلة واتساب">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Column 2: Showroom Details & Contact -->
+        <div class="footer-contact">
+          <h4 class="footer-heading">صالة العرض والمصنع</h4>
+          <div class="footer-contact-list">
+            <div class="contact-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <span>صالة العرض الكبرى: طريق القاهرة الإسماعيلية الصحراوي، بالقرب من المركز التجاري الرئيسي</span>
+            </div>
+            <div class="contact-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span>مواعيد العمل: يومياً من الساعة 10:00 صباحاً حتى 10:00 مساءً (الجمعة من 1:00 ظهراً)</span>
+            </div>
+            <div class="contact-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <span dir="ltr">0100 000 0000 / 0111 000 0000</span>
+            </div>
+            <div class="contact-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <span>info@alfarida-furniture.com</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Column 3: Quick Links & Services -->
+        <div class="footer-links-col">
+          <h4 class="footer-heading">روابط وأقسام سريعة</h4>
+          <div class="footer-links">
+            <a href="#catalog">الكتالوج الحصري للقطع</a>
+            <a href="#categories">باقات أثاث الشقق المتكامل</a>
+            <a href="#craftsmanship">مواصفات الخامات والأخشاب</a>
+            <a href="#portfolio">سابقة الأعمال والمشروعات السكنية</a>
+            <a href="#workflow">خطوات المعاينة ورفع المقاسات</a>
+            <a href="#faq">سياسة الضمان وخدمات ما بعد البيع</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Copyright Bottom Bar -->
+      <div class="footer-bottom">
+        <span>© 2026 معرض ومصنع الفريدة للأثاث - ALFARIDA FURNITURE. جميع الحقوق محفوظة.</span>
+        <span>مصنوع بحرفية مصرية وأخشاب زان طبيعية معتمدة • تصميم مخصص ومتقن</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       MODAL 1: Product Quick-View Modal
+       ========================================================================== -->
+  <div class="modal-overlay" id="quickViewModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-overlay" id="modalBackdrop" style="background: transparent; z-index: 1;"></div>
+    
+    <div class="modal-container" style="z-index: 2;">
+      <button type="button" class="modal-close-btn" id="modalClose" aria-label="إغلاق النافذة">
+        ✕
+      </button>
+
+      <div class="quickview-grid">
+        <div class="quickview-img-box" id="modalImgWrapper">
+          <img id="modalImage" src="" alt="">
+        </div>
+
+        <div class="quickview-content">
+          <div class="modal-badge-row">
+            <span class="modal-sku" id="modalSku"></span>
+            <span class="product-category-tag" id="modalCategoryTag"></span>
+            <span class="hero-card-pill" id="modalBadge"></span>
+          </div>
+
+          <h2 class="modal-title" id="modalTitle"></h2>
+          <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 14px;" id="modalTagline"></p>
+
+          <!-- Specifications Table -->
+          <table class="modal-specs-table">
+            <tbody>
+              <tr>
+                <th>نوع الخشب:</th>
+                <td id="modalWood"></td>
+              </tr>
+              <tr>
+                <th>خامة القماش:</th>
+                <td id="modalFabric"></td>
+              </tr>
+              <tr>
+                <th>مواصفات التنجيد:</th>
+                <td id="modalFoam"></td>
+              </tr>
+              <tr>
+                <th>الأبعاد والمقاسات:</th>
+                <td id="modalDimensions"></td>
+              </tr>
+              <tr>
+                <th>فترة الضمان:</th>
+                <td id="modalWarranty" style="color: var(--brand-primary); font-weight: 700;"></td>
+              </tr>
+              <tr>
+                <th>مدة التنفيذ والتسليم:</th>
+                <td id="modalLeadTime"></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- Material & Fabric Swatches -->
+          <div class="swatches-block">
+            <span class="swatches-label">خيارات الأخشاب والأقمشة المتاحة للتخصيص: <span id="activeSwatchLabel" style="color: var(--accent-gold); font-weight: 600;">(المحدد: جوز تركي طبيعي)</span></span>
+            <div class="swatches-list">
+              <button type="button" class="swatch-item active" data-swatch="جوز تركي طبيعي" style="background-color: #5C4033;" title="جوز تركي طبيعي" aria-label="جوز تركي طبيعي"></button>
+              <button type="button" class="swatch-item" data-swatch="زان أحمر مفرز" style="background-color: #8B4513;" title="زان أحمر مفرز" aria-label="زان أحمر مفرز"></button>
+              <button type="button" class="swatch-item" data-swatch="بلوط داكن معتق" style="background-color: #382212;" title="بلوط داكن معتق" aria-label="بلوط داكن معتق"></button>
+              <button type="button" class="swatch-item" data-swatch="قماش بوكليه كريمي" style="background-color: #EDE8D0;" title="قماش بوكليه كريمي" aria-label="قماش بوكليه كريمي"></button>
+              <button type="button" class="swatch-item" data-swatch="مخمل بيج ووتر بروف" style="background-color: #C2B280;" title="مخمل بيج ووتر بروف" aria-label="مخمل بيج ووتر بروف"></button>
+              <button type="button" class="swatch-item" data-swatch="جلد هافان إيطالي" style="background-color: #9E5B32;" title="جلد هافان إيطالي" aria-label="جلد هافان إيطالي"></button>
+            </div>
+          </div>
+
+          <div class="modal-actions">
+            <a id="modalWhatsAppBtn" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="background-color: #25D366; border-color: #25D366; color: #FFFFFF;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+              <span>استفسر عبر واتساب واطلب تسعيراً للموديل</span>
+            </a>
+            <button type="button" class="btn btn-secondary" id="modalRfqBtn">
+              <span>طلب معاينة ورفع مقاسات منزلية</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       MODAL 2: Portfolio Details Lightbox Modal
+       ========================================================================== -->
+  <div class="modal-overlay" id="portfolioModal" role="dialog" aria-modal="true" aria-labelledby="portModalTitle">
+    <div class="modal-overlay" id="portfolioModalBackdrop" style="background: transparent; z-index: 1;"></div>
+    
+    <div class="modal-container" style="max-width: 800px; z-index: 2;">
+      <button type="button" class="modal-close-btn" id="portfolioModalClose" aria-label="إغلاق النافذة">
+        ✕
+      </button>
+
+      <div style="aspect-ratio: 16 / 9; overflow: hidden; background-color: var(--bg-warm);">
+        <img id="portModalImg" src="" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+      </div>
+
+      <div style="padding: 32px 28px;">
+        <span class="hero-card-tag" id="portModalTag" style="font-size: 0.82rem; margin-bottom: 6px; display: block;"></span>
+        <h2 class="modal-title" id="portModalTitle" style="font-size: 1.8rem; margin-bottom: 8px;"></h2>
+        <p style="font-size: 0.95rem; color: var(--accent-brass); font-weight: 700; margin-bottom: 20px;" id="portModalLocation"></p>
+
+        <div style="display: flex; flex-direction: column; gap: 14px; font-size: 0.94rem; color: var(--text-secondary); margin-bottom: 24px; border-top: 1px solid var(--hairline); padding-top: 18px;">
+          <div><strong style="color: var(--brand-primary);">نطاق العمل المنفذ:</strong> <span id="portModalScope"></span></div>
+          <div><strong style="color: var(--brand-primary);">الخامات والأخشاب المستخدمة:</strong> <span id="portModalMaterials"></span></div>
+          <div><strong style="color: var(--brand-primary);">مدة التنفيذ والتسليم:</strong> <span id="portModalDuration"></span></div>
+          <div style="background-color: var(--bg-warm); padding: 14px 18px; border-radius: var(--radius-btn); border-right: 3px solid var(--accent-gold); font-style: italic;" id="portModalFeedback"></div>
+        </div>
+
+        <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+          <a id="portModalWaBtn" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="flex: 1;">
+            <span>أرغب في تأثيث مشروع مشابه لهذا الطراز</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       MODAL 3: RFQ & Contact Quotation Modal
+       ========================================================================== -->
+  <div class="modal-overlay" id="rfqModal" role="dialog" aria-modal="true" aria-labelledby="rfqTitle">
+    <div class="modal-overlay" id="rfqModalBackdrop" style="background: transparent; z-index: 1;"></div>
+
+    <div class="modal-container" style="max-width: 680px; z-index: 2;">
+      <button type="button" class="modal-close-btn" id="rfqModalClose" aria-label="إغلاق النافذة">
+        ✕
+      </button>
+
+      <div class="rfq-form-content">
+        <span class="section-badge" style="margin-bottom: 10px;">استشارة هندسية وتسعير</span>
+        <h2 class="modal-title" id="rfqTitle" style="margin-bottom: 8px;">طلب مقايسة وتسعير أثاث مخصص</h2>
+        <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 24px;">
+          أدخل بياناتك ومتطلباتك، وسيتواصل معك مهندس متخصص من مصنع الفريدة لتقديم الاستشارة وتحديد موعد المعاينة.
+        </p>
+
+        <form id="rfqForm">
+          <input type="hidden" id="rfqSubject" value="طلب تسعير جديد">
+          
+          <div class="form-grid">
+            <div class="form-group">
+              <label class="form-label" for="rfqName">الاسم الكريم *</label>
+              <input type="text" id="rfqName" class="form-control" placeholder="مثال: م. أحمد عبد الرحمن" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="rfqPhone">رقم الهاتف أو الواتساب *</label>
+              <input type="tel" id="rfqPhone" class="form-control" placeholder="مثال: 01000000000" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="rfqCategory">القسم أو الخدمة المطلوبة</label>
+              <select id="rfqCategory" class="form-control">
+                <option value="تأثيث شقة بالكامل (باقة العرائس)">تأثيث شقة بالكامل (باقة العرائس)</option>
+                <option value="تأثيث فيلا سكنية متكاملة">تأثيث فيلا سكنية متكاملة</option>
+                <option value="انتريهات وركنيات مخصصة">انتريهات وركنيات مخصصة</option>
+                <option value="صالون كلاسيك مذهب">صالون كلاسيك مذهب</option>
+                <option value="غرفة نوم ماستر">غرفة نوم ماستر</option>
+                <option value="طقم سفرة وكراسي">طقم سفرة وكراسي</option>
+                <option value="مشروع تجاري أو فندقي (B2B)">مشروع تجاري أو فندقي (B2B)</option>
+                <option value="أخرى">أخرى</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="rfqCity">المدينة أو المنطقة</label>
+              <input type="text" id="rfqCity" class="form-control" placeholder="مثال: التجمع الخامس، الشيخ زايد، الإسكندرية...">
+            </div>
+
+            <div class="form-group full">
+              <label class="form-label" for="rfqNotes">تفاصيل التصميم، المقاسات التقريبية، أو أي متطلبات خاصة</label>
+              <textarea id="rfqNotes" class="form-control" rows="3" placeholder="اكتب نبذة عن المساحة المراد فرشها أو الموديل الذي ترغب في تصنيعه..."></textarea>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%; padding-block: 14px;">
+            <span>إرسال الطلب والتواصل عبر واتساب فوراً</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Direct WhatsApp Button (Bottom-Left) -->
+  <a href="https://wa.me/201000000000?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%20%D9%85%D8%B9%D8%B1%D8%B6%20%D9%88%D9%85%D8%B5%D9%86%D8%B9%20%D8%A7%D9%84%D9%81%D8%B1%D9%8A%D8%AF%D8%A9%20%D9%84%D9%84%D8%A3%D8%AB%D8%A7%D8%AB%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D8%AA%D8%B5%D9%86%D9%8A%D8%B9%20%D9%88%D8%A7%D9%84%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1" target="_blank" rel="noopener noreferrer" class="floating-whatsapp" aria-label="تواصل مباشر عبر واتساب">
+    <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zM17.47 14.38c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.5-.9-.8-1.5-1.78-1.67-2.08-.17-.3-.02-.46.13-.61.14-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.06 2.87 1.21 3.07.15.2 2.09 3.19 5.06 4.47.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35z"/>
+    </svg>
+    <span class="floating-whatsapp-tooltip">تحدث معنا مباشرة على واتساب</span>
+  </a>
+
+  <!-- Scroll to Top Button -->
+  <button type="button" class="scroll-top-btn" id="scrollTopBtn" aria-label="العودة لأعلى الصفحة">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </button>
+
+  <!-- Toast Notification -->
+  <div class="toast-notice" id="toastNotice" role="status" aria-live="polite">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#B8860B" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+    <span id="toastMessage"></span>
+  </div>
+
+  <!-- JavaScript -->
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      document.title = 'METRICS: sw=' + document.documentElement.scrollWidth + ' cw=' + document.documentElement.clientWidth + ' bodySw=' + document.body.scrollWidth;
+    });
+  </script>
+  <script src="app.js"></script>
+</body>
+</html>
